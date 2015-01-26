@@ -1,6 +1,7 @@
 @echo off
+use CMD::Colors;
 "%Git%git.exe" pull https://github.com/sinelnikof/data.git
-@echo "Update..."
+ Cprint('hello, This is RED text', 'red');
 "%Git%git.exe" reset --hard
-@echo"Cancel"
+ Cprint('hello, This is RED text', 'red');
 pause
