@@ -1,6 +1,6 @@
 @echo off
 "%Git%git.exe" pull https://github.com/sinelnikof/data.git
-echo "Обновлеие.."
+@echo "Обновлеие.."
 "%Git%git.exe" reset --hard
-echo"Завершенно"
+@echo"Завершенно"
 pause
